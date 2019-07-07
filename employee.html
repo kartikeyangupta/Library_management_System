@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+    <head>
+        <title>Employee </title>
+        <link href="pstyles.css" rel="stylesheet" type="text/css" />
+     
+    </head>
+    <body>
+       <div class="logoBackground">
+  	<div class="logo"><h6>EMPLOYEE<h6></div>
+    
+  </div>
+		<div class="menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="branch.html">Branch</a></li>
+		<li id="active"><a href="employee.html">Employee</a></li>
+        <li><a href="customer.html">Customer</a></li>
+        <li><a href="issue.html">Issue Status</a></li>
+		<li><a href="return.html">Return Status</a></li>
+		<li><a href="books.html">Books</a></li>
+    </ul>
+  </div>
+	<div class="leftContent">
+    <b><form action="regemployee.php" method="post">
+	<h1> ADD Employee </h1>
+Employee Id: <input type="number" name="empid"/><br><br>
+Employee Name: <input type="text" name="empname"/><br><br>
+Position : <input type="text" min=18 name="pos"/><br><br>
+Salary: <input type="number" name="sal"/><br><br>
+Branch Id: <input type="number" name="bnch_id"/><br><br>
+<input type="submit" name="submit" value="Register">
+</form></b>	
+    </div>	
+
+		
+	<div class="rightContent">
+	<b><form action="viewemployee.php" method="post" >
+	<h1> VIEW EMPLOYEES </h1>
+	<input type="submit" value="View"/>
+	</form></b>	
+	</div>
+	
+	</body>
+	</html>

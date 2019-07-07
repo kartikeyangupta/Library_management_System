@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+    <head>
+        <title>KMSY2 Library</title>
+        <link href="pstyles.css" rel="stylesheet" type="text/css" />
+     
+    </head>
+    <body>
+      <div class="logoBackground">
+  	<div class="logo"><h6>Customers<h6></div>
+    
+  </div>
+		<div class="menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="branch.html">Branch</a></li>
+		<li><a href="employee.html">Employee</a></li>
+        <li id="active"><a href="">Customer</a></li>
+        <li><a href="issue.html">Issue Status</a></li>
+		<li><a href="return.html">Return Status</a></li>
+        <li><a href="books.html">books</a></li>
+    </ul>
+  </div>
+	
+<div class="leftContent">
+    <b><form action="regcustomer.php" method="post" >
+	<h1> ADD Customer </h1>
+Customer Id: <input type="number" name="cid"/><br><br>
+Customer Name: <input type="text" name="cname"/><br><br>
+Customer Address: <input type="text" name="caddress"/><br><br>
+Registration Date(YYYY-MM-DD): <input type="text" name="rdate"/><br><br>
+
+<input type="submit" name="submit" value="Register">
+</form></b>	
+    </div>	
+<div class="rightContent">
+	<b><form action="viewcustomer.php" method="post" >
+	<h1> VIEW Customer </h1>
+	<input type="submit" value="View"/>
+	</form></b>	
+	</div>
+</form>
+	</div>
+	
+	</body>
+	</html>

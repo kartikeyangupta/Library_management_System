@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+    <head>
+        <title>KMSY2 Library</title>
+        <link href="pstyles.css" rel="stylesheet" type="text/css" />
+     
+    </head>
+    <body>
+      	<div class="logoBackground">
+  	<div class="logo"><h6>Branch<h6></div>
+    
+  </div>
+		<div class="menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li id="active"><a href="branch.html">Branch</a></li>
+		<li><a href="employee.html">Employees</a></li>
+        <li><a href="customer.html">Customer</a></li>
+        <li><a href="issue.html">Issue Status</a></li>
+		<li><a href="return.html">Return Status</a></li>
+		<li><a href="books.html">Books</a></li>
+    </ul>
+  </div>
+	<div class="leftContent">
+    <b><form action="regbranch.php" method="post">
+	<h1> ADD BRANCH </h1>
+Manager Id: <input type="text" name="manId"/><br><br>
+branch Id: <input type="text" name="BrName"/><br><br>
+Contact number : <input type="number" name="number"/><br><br>
+Address :  <input type="text" name="Address"/><br><br>
+<input type="submit" name="submit" value="ADD">
+</form></b>	
+    </div>	
+
+		
+	<div class="rightContent">
+	<b><form action="viewbranch.php" method="post" >
+	<h1> VIEW ALL BRANCHES </h1>
+	<input type="submit" value="View"/>
+	</form></b>	
+	</div>
+	
+	</body>
+	</html>

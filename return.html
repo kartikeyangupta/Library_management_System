@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+Return cars and generate bill
+-->
+<html>
+    <head>
+        <title>Car Rental </title>
+        <link href="pstyles.css" rel="stylesheet" type="text/css" />
+     
+    </head>
+    <body>
+     	<div class="logoBackground">
+  	<div class="logo"><h6>RETURN CAR <h6></div>
+    
+  </div>
+		<div class="menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li ><a href="branch.html">Branch</a></li>
+		<li><a href="employee.html">Employees</a></li>
+        <li><a href="customer.html">Customer</a></li>
+        <li><a href="issue.html">Issue Status</a></li>
+		<li id="active" ><a href="return.html">Return Status</a></li>
+		<li><a href="books.html">Books</a></li>
+    </ul>
+  </div>
+	
+<div class="leftContent">
+    <b><form action="regreturn.php" method="post" >
+	<h1> ADD Return Book </h1>
+Return_id : <input type="number" name="iid"/><br><br>
+Return_Cust  : <input type="number" name="cid"/><br><br>
+Return_Book_Name : <input type="text" name="bname"/><br><br>
+Return_Date (YYYY-MM-DD): <input type="text" name="date"/><br><br>
+ISBN_Book2 : <input type="number" name="bid"/><br><br>
+Employee_Id : <input type="number" name="eid"/><br><br>
+<input type="submit" name="submit" value="ADD">
+</form></b>	
+    </div>	
+<div class="rightContent">
+	<b><form action="viewreturn.php" method="post">
+	<h1> Returned Books </h1>
+	<input type="submit" value="View"/>
+	</form></b>	
+	</div>
+	
+	</body>
+	</html>
