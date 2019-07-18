@@ -4,43 +4,60 @@
 </p>
 
 <p align="center">A Project build on html+php+mysql to make a Library Management System.</p>
-## The 
-<p align="center">
-    <img src="https://i.imgur.com/zEeHoWA.png" alt="Empty interface">
-</p>
 
+## The ER Diagram
+<p align="center">
+    <img src="https://imgur.com/KEQ96Eh.png" alt="Empty interface">
+</p>
+## The Schema Diagram
+<p align="center">
+    <img src="https://imgur.com/gxYYNZp.png" alt="Empty interface">
+</p>
 <p align="center">
     <img src="https://img.shields.io/pypi/l/auto-py-to-exe.svg" alt="License"></a>
 </p>
 
 ## Getting Started
+There are seven pages:
+- Home
+- Branch
+- Employee
+- Customer
+- Issue Book
+- Return Book
+- Books
+### Database in Wamp Server
+<p>
+    <img src="https://imgur.com/4XZyIgQ.png" alt="License"></a>
+</p>
 
 ### Prerequisites
  - A web-browser
  - Any mysql database server (I worked on wamp server)
+
+### Screen-Shots
+<p>
+    <img src="https://imgur.com/8sPcfmy.png" alt="License" width="400" height="200"></a>
+    <img src="https://imgur.com/U4Qhvlc.png" alt="License" width="400" height="200"></a>
+    <img src="https://imgur.com/hiAVWJD.png" alt="License" width="400" height="200"></a>
+    <img src="https://imgur.com/ebtNLl3.png" alt="License" width="400" height="200"></a>
+    <img src="https://imgur.com/JDjy2Nq.png" alt="License" width="400" height="200"></a>
+    <img src="https://imgur.com/faRZmOn.png" alt="License" width="400" height="200"></a> 
+</p>
+
+### Schema of tables used in library database
+<p>
+    <img src="https://imgur.com/C52H7Xe.png" alt="License" width="400" height="150"></a>
+    <img src="https://imgur.com/aaq5xJD.png" alt="License" width="400" height="100"></a>
+    <img src="https://imgur.com/o0277Xj.png" alt="License" width="400" height="100"></a>
+    <img src="https://imgur.com/BB8GwNa.png" alt="License" width="400" height="100"></a>
+    <img src="https://imgur.com/mYHNRan.png" alt="License" width="400" height="100"></a>
+    <img src="https://imgur.com/PDkyKX6.png" alt="License" width="400" height="100"></a> 
+</p>
+
 ### Installation and Usage
-just run the index.html file.
-create the database on your local server.
+- just run the index.html file.
+- create the database on your local server.
 
-## Using the Application
-1. Select your Image using the ADD button.
-2. Create bounding boxes over the Image to crop specific places in the Image.
-<p align="center">
-    <img src="https://imgur.com/yaBAZcg.png" alt="Empty interface">
-</p>
-3. Click the Process Image button at the Left to process text out of Image.
-
-<p align="center">
-    <img src="https://imgur.com/19cgV5t.png" alt="Empty interface">
-</p>
-
-4. Copy the processed text Beside the Image.
-
-<p align="center">
-    <img src="https://imgur.com/svuEdkM.png" alt="Empty interface">
-</p>
-
-*Easy.*
-
-## Issues Using the Software
-If you're having issues with the packaged executable or using this tool in general, I recommend you to upload your issues on the issue page .Once the software gets stable and 90% efficient I will upload a .exe file for the software.
+## Issues Using the Code
+If you find a nice thing to commit , or find any data reduntancy in the database ping in the issue tab or directly commit it.
