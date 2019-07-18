@@ -5,16 +5,17 @@
 
 <p align="center">A Project build on html+php+mysql to make a Library Management System.</p>
 
-## The ER Diagram
+<p align="center">
+    <img src="https://img.shields.io/pypi/l/auto-py-to-exe.svg" alt="License"></a>
+</p>
+<h2 align="center">ER Diagram</h1>
 <p align="center">
     <img src="https://imgur.com/KEQ96Eh.png" alt="Empty interface">
 </p>
-## The Schema Diagram
+
+<h2 align="center">Schema Diagram</h1>
 <p align="center">
     <img src="https://imgur.com/gxYYNZp.png" alt="Empty interface">
-</p>
-<p align="center">
-    <img src="https://img.shields.io/pypi/l/auto-py-to-exe.svg" alt="License"></a>
 </p>
 
 ## Getting Started
